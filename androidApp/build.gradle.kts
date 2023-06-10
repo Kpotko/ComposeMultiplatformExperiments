@@ -50,4 +50,5 @@ dependencies {
     implementation ("com.google.truth:truth:1.1.3")
     implementation("androidx.compose.material3:material3:1.1.0")
     testImplementation ("junit:junit:4.13.2")
+    testImplementation ("org.robolectric:robolectric:4.10.3")
 }

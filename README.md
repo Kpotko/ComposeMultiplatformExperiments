@@ -12,8 +12,10 @@ Results should contain:
 -   a list of found bugs in main cases
 -   a few automated tests that cover main cases (using any language/framework)
 
-Chosen component and platform:
-RangeSlider, Android.
+### Chosen component and platform:
+### RangeSlider, Android.
+### Autotests are located in AndroidApp/src/androidUnitTest dir
+### To run test - execute testDebugUnitTest Gradle task in androidApp
 _____________________________
 Check list: (wrote check list instead of full detailed test cases, for fast finish MVP. It's able to be improved in next iterations if needed)
 
