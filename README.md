@@ -47,6 +47,7 @@ Value Range Tests:
 Accessibility Tests:
 
 17) Verify that the RangeSlider is accessible to screen reader and announces the correct value when the minimum or maximum marker is moved.
+18) RangeSlider supports RTL languages
 
 
 ---------------------------------
@@ -94,18 +95,15 @@ Bugs:
     Additional Information:
     onValueChangeFinished callback is triggered correctly (so it means that click action is triggered)
 
-
 3) 	Title: When rangeSlider is using steps we can make "right" thumb with less value than the "left" one
       Priority: major
       Steps to reproduce:
    1. 'steps' parameter is set > 0
    2.	drag the left thumb to the middle step
    3.	hold and drag the right thumb to position more to left than left thumb.
-
 	Actual Result:
 		right thumb moves to point more to left that left thumb
 		value of right thumb become less than left thumb's value
-
 	Expected Result:
 		right thumb move to the same point as left thumb
 		value of left and right thumbs become the same
